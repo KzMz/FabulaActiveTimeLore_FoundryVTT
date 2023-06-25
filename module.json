@@ -8,6 +8,11 @@
     "verified": 10,
     "maximum": 11
   },
+  "systems": [
+    "fabulaultima",
+    "dnd5e"
+  ],
+  "minimumCoreVersion": "0.10.0",
   "authors": [
     {
       "name": "KzMz",
