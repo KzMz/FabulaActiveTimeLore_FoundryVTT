@@ -5,7 +5,7 @@
   "version": "#{VERSION}#",
   "compatibility": {
     "minimum": 10,
-    "verified": 11,
+    "verified": 10,
     "maximum": 11
   },
   "authors": [
@@ -16,11 +16,7 @@
     }
   ],
   "esmodules": [
-    "scripts/lib/lib.js",
     "scripts/module.js"
-  ],
-  "styles": [
-    "styles/module.css"
   ],
   "languages": [
     {
