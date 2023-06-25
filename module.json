@@ -8,10 +8,16 @@
     "verified": 10,
     "maximum": 11
   },
-  "systems": [
-    "fabulaultima",
-    "dnd5e"
-  ],
+  "relationships": {
+    "systems": [
+     {
+       "id": "fabulaultima"
+     },
+     {
+        "id": "dnd5e"
+     }
+    ]
+   },
   "minimumCoreVersion": "0.10.0",
   "authors": [
     {
@@ -22,13 +28,6 @@
   ],
   "esmodules": [
     "scripts/module.js"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
   ],
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
