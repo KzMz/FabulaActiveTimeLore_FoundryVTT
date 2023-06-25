@@ -36,7 +36,18 @@ function refreshJournalFiles() {
         for (let entry of entries) {
             const entryData = [];
             entry.pages.forEach(page => {
-                entryData.push(page.toJSON());
+                let pageData = {
+                    name: page.name,
+                    type: page.type
+                };
+
+                if (page.type === "image") {
+                    pageData.content = page.src;
+                } else if (page.type === "text") {
+                    pageData.content = page.text.content;
+                }
+
+                entryData.push(pageData);
             });
             data.push({
                 name: entry.name,
