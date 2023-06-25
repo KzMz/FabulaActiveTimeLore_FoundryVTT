@@ -17,19 +17,6 @@
       "discord": "kzmz#9443"
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "fabulaultima",
-        "type": "system",
-        "manifest": "https://github.com/KzMz/fabula-ultima/releases/download/0.5.21/system.json",
-        "compatibility": {
-          "verified": "0.5.21"
-        }
-      }
-    ],
-    "requires": []
-  },
   "esmodules": [
     "scripts/module.js"
   ],
