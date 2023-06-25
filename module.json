@@ -20,9 +20,9 @@
   "relationships": {
     "systems": [
       {
-        "id": "fabula-ultima",
+        "id": "fabulaultima",
         "type": "system",
-        "manifest": "",
+        "manifest": "https://github.com/KzMz/fabula-ultima/releases/download/0.5.21/system.json",
         "compatibility": {
           "verified": "0.5.21"
         }
