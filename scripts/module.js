@@ -56,12 +56,12 @@ function refreshJournalFiles() {
         }
         const json = JSON.stringify(data);
         const file = new File([json], `${subFolder.name}.json`, {type: "application/json"});
-        SilentForgeFilePicker.upload("data", `active-time-lore/${subFolder.name}.json`, file, {}).then((response) => { console.log(response); });
+        SilentForgeFilePicker.upload("data", `active-time-lore`, file, {}).then((response) => { console.log(response); });
     }
 
     const json = JSON.stringify(index);
     const file = new File([json], "index.json", {type: "application/json"});
-    SilentForgeFilePicker.upload("data", `active-time-lore/index.json`, file, {}).then((response) => { console.log(response); });
+    SilentForgeFilePicker.upload("data", `active-time-lore`, file, {}).then((response) => { console.log(response); });
 }
 
 Hooks.once("init", function() {
