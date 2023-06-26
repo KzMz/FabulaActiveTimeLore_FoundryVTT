@@ -34,6 +34,8 @@ function refreshJournalFiles() {
         const data = [];
 
         for (let entry of entries) {
+            if (entry.ownership.default !== 2) continue;
+
             const entryData = [];
             entry.pages.forEach(page => {
                 let pageData = {
