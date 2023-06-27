@@ -39,6 +39,7 @@ function refreshJournalFiles() {
             const entryData = [];
             entry.pages.forEach(page => {
                 let pageData = {
+                    id: page.id,
                     name: page.name,
                     type: page.type
                 };
