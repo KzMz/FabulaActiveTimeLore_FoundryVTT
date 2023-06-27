@@ -53,6 +53,7 @@ function refreshJournalFiles() {
                 entryData.push(pageData);
             });
             data.push({
+                id: entry.id,
                 name: entry.name,
                 pages: entryData
             });
